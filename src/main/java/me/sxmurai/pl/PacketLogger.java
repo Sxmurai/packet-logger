@@ -80,9 +80,9 @@ public class PacketLogger {
 
     private void load() {
         this.logClientPackets = this.config.getBoolean("Log Client Packets", "Default", true, "If to log client sided packets");
-        this.logServerPackets = this.config.getBoolean("Log Server Packets", "Default", true, "If to log server sided packets");
+        this.logServerPackets = this.config.getBoolean("Log Server Packets", "Default", false, "If to log server sided packets");
         this.logToFile = this.config.getBoolean("Log To File", "Default", true, "If to log the packets to a file");
-        this.logInChat = this.config.getBoolean("Log In Chat", "Default", true, "If to log the packets in chat");
+        this.logInChat = this.config.getBoolean("Log In Chat", "Default", false, "If to log the packets in chat");
 
         this.config.save();
     }
