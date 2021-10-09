@@ -36,7 +36,7 @@ While a shitty example, you can always figure it out.
 
 ## That seems super complicated! How would I know what to do as a beginner?
 
-You kinda don't. It's a tool to observe what is being sent. If you know hot to use it, you know how to use it.
+You kinda don't. It's a tool to observe what is being sent. If you know how to use it, you know how to use it.
 
 ---
 
